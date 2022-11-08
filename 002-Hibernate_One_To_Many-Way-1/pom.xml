@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>info.ashutosh</groupId>
-	<artifactId>Hibernate_One_To_Many</artifactId>
+	<artifactId>002-Hibernate_One_To_Many</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Hibernate_One_To_Many</name>
 	<description>Demo project for Spring Boot</description>

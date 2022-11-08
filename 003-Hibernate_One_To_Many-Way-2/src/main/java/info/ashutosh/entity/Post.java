@@ -28,7 +28,7 @@ public class Post {
 
 	private String title;
 
-	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
+	@OneToMany( cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name = "post_fid")
 	private List<Comments> comments = new ArrayList<>();
 
